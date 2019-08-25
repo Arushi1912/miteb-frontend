@@ -208,7 +208,7 @@ class MediumContainer extends React.Component {
           />
         </div>
         <Divider />
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
+        <div style={{ display: 'none', flexDirection: 'row' }}>
           <Checkbox value={2} checked={this.state.checked[2]} style={{ width: 48, height: 48, paddingTop: 20, paddingBottom: 15 }} onCheck={this.updateCheck.bind(this, 2)} />
           <ListItem
             style={{ minHeight: 65, textAlign: 'left', minWidth: 400, paddingTop: 10, backgroundColor: this.state.clickedValue == 2? 'lightgray' : null }}
